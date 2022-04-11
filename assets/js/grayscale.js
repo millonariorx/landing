@@ -1,3 +1,10 @@
+
+var num=573016414316;
+var texto="Hola ya he realizado el pago";
+
+
+
+
 (function() {
   "use strict"; // Start of use strict
 
@@ -63,3 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
   var ver = document.getElementById('ver');
   ver.innerHTML = flipdown.version;
 });
+
+function whats(){
+  window.open('https://api.whatsapp.com/send?phone='+num+'&text='+texto+'', '_blank');
+}
