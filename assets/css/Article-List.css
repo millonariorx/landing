@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600&display=swap');
+
+*{
+  font-family: 'Khula', sans-serif;
+}
+
+.khula-300{
+  font-family: 'Khula', sans-serif;
+  font-weight: 300;
+}
+
+.khula-400{
+  font-family: 'Khula', sans-serif;
+  font-weight: 400;
+}
+
+.khula-600{
+  font-family: 'Khula', sans-serif;
+  font-weight: 600;
+}
+
 .article-list {
   color: #313437;
   background-color: #fff;
