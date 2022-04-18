@@ -316,7 +316,7 @@
   border-radius:50%;
   background:#25d366;
   right:25px;
-  top:10vh;
+  top:17vh;
   position:fixed;
   border:none;
   text-decoration: none;
@@ -366,5 +366,45 @@
     transform: scale(1.5);
   }
 }
+
+.logo-brand{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.masthead{
+  position: relative;
+  overflow: hidden;
+}
+
+.masthead .intro-body{
+  position: relative;
+  z-index: 1 !important;
+}
+
+.masthead .intro-body::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 500%;
+  background-color: #2a2b2ab6;
+  z-index: -1 !important;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+}
+
+
 
 
