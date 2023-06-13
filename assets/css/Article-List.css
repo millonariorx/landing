@@ -20,8 +20,9 @@
 }
 
 .khula-600{
-  font-family: 'Khula', sans-serif;
+  font-family: 'khula', sans-serif;
   font-weight: 600;
+  
 }
 
 .article-list {
@@ -131,11 +132,13 @@
 .announce .title{
   flex-basis: 80%;
   padding: 50px;
+
 }
 
 .announce .banner-logo{
   flex-basis: 20%;
   position: relative;
+  
 }
 
 .announce .banner-logo img{
@@ -392,18 +395,16 @@
     transform: scale(1.5);
   }
 }
-
 .logo-brand{
   width: 100px;
   height: 100px;
+
+  
+  transform: scale(1.9);
   overflow: hidden;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
+
 
 .masthead{
   position: relative;
